@@ -18,7 +18,7 @@ if (window.location.href.indexOf('/files') !== -1) {
     prButtons.append(buttonDiv);
 }
 
-// Add Whitespace Button to Pull Request File Change List
+// Add Filter Buttons to Pull Request List
 if (window.location.href.indexOf('/pulls') !== -1) {
     var subNav = document.querySelector('.subnav-links');
     var buttonAll = document.createElement('a');
